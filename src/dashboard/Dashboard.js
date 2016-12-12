@@ -9,6 +9,7 @@ import AccountOverview    from './Account/AccountOverview.react';
 import AccountView        from './AccountView.react';
 import AnalyticsOverview  from './Analytics/Overview/Overview.react';
 import ApiConsole         from './Data/ApiConsole/ApiConsole.react';
+import AdminPanel         from './Data/Admin/AdminPanel.react';
 import AppData            from './AppData.react';
 import AppsIndex          from './Apps/AppsIndex.react';
 import AppsManager        from 'lib/AppsManager';
@@ -227,6 +228,7 @@ class Dashboard extends React.Component {
           <Route path='logs/:type' component={Logs} />
           <Route path='config' component={Config} />
           <Route path='api_console' component={ApiConsole} />
+          <Route path='admin_panel' component={AdminPanel} />
           <Route path='migration' component={Migration} />
           <Redirect from='push' to='/apps/:appId/push/new' />
           <Redirect from='push/activity' to='/apps/:appId/push/activity/all' />
