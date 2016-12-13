@@ -1,5 +1,5 @@
 {
-  "name": "parse-dashboard",
+  "name": "@youngboy/parse-dashboard",
   "parseDashboardFeatures": [
     "Data Browser",
     "Cloud Code Viewer",

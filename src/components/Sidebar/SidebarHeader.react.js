@@ -20,7 +20,7 @@ let SidebarHeader = ({}) =>
   </Link>
   <Link to='/apps'>
     <div className={styles.version}>
-      <div>Parse Dashboard {version}</div>
+      <div>Pocoweb Dashboard {version}</div>
     </div>
   </Link>
 </div>
