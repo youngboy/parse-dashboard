@@ -37,6 +37,14 @@ const cloudsInfo = {
       { key: 'reason', helpText: '回绝原因，用来提示用户修改' },
     ],
   },
+  FundingProject: {
+    helpText: '资金托管支付',
+    params: [
+      { key: 'id', helpText: '资金 Fund Id' },
+      { key: 'notes', helpText: '备注，比如附上转账流水'},
+      { key: 'amount', helpText: '充值的金额'},
+    ],
+  }
 };
 
 export default class AdminPanel extends DashboardView {
